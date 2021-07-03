@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  display: none;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./bcg.jpg') center/cover no-repeat;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px white;
+  color: red;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+
+.form {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table {
+  background: linear-gradient(to bottom right, darkgreen, lightseagreen);
+  color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border: 16px solid darkgoldenrod;
+  outline: 4px solid white;
+  outline-offset: -24px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.table h1 {
+  margin-bottom: 1.5rem;
+}
+
+.table h3 {
+  font-size: 1.25rem;
+}
+
+#special-text {
+  color: black;
+  text-shadow: 1px 1px 0px white;
+}
+
+.input,
+.submit {
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 2px solid;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  background: crimson;
+  color: white;
+  padding: 1rem;
+  margin: 2rem 0;
+}
