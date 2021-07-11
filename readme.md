@@ -4,4 +4,4 @@ Get the starter files for this app by switching the branch from `main` to `start
 
 #### Tutorial Link
 
-[Multiplication Table Tutorial](https://www.youtube.com/channel/UCVy_Vz0FyiDs5oomr60swvA)
+[Multiplication Table Tutorial](https://youtu.be/-Rsjkfb85Ww)
